@@ -27,15 +27,15 @@ class RecordedSimulation extends Simulation {
 
 
 	val scn = scenario("RecordedSimulation")
-		.exec(http("request_0")
+		.exec(http("LOAD_INDEX_PAGE")
 			.get("/")
 			.headers(headers_0))
-		.pause(6)
-		.exec(http("request_1")
+		.pause(1)
+		.exec(http("LOAD_ABOUT_PAGE")
 			.get("/about")
 			.headers(headers_0))
-		.pause(4)
-		.exec(http("request_2")
+		.pause(1)
+		.exec(http("LOAD_HELLO_PAGE")
 			.get("/hello")
 			.headers(headers_0))
 
