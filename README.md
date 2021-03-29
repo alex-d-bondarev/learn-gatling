@@ -15,3 +15,7 @@ See [MIT license](https://opensource.org/licenses/MIT) for more details.
 1. Wait for script to end
 1. Open `gatling/results/<script_name+timestamp>/index.html`
 
+## References
+
+1. Credit to [YouTube Video training](https://www.youtube.com/watch?v=CpbgltEqFpQ&list=PLw_jGKXm9lIYpTotIJ-R31pXS7qqwXstt&index=3)
+1. [Gatling's Cheat sheet](https://gatling.io/docs/current/cheat-sheet/)
